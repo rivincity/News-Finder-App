@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id_adapter_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="19dp"
+        android:gravity="left"
+        android:text="TextView"
+        android:textColor="#353643"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <TextView
+        android:id="@+id/id_adapter_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_adapter_link"
+        android:layout_alignStart="@+id/id_adapter_link"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FEB281"
+        android:gravity="left"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <ImageButton
+        android:id="@+id/id_adapter_likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/bluelike"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/id_adapter_pubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_adapter_link"
+        android:layout_alignStart="@+id/id_adapter_link"
+        android:textColor="#FEB281"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+</RelativeLayout>
